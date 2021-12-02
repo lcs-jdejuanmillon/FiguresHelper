@@ -18,8 +18,13 @@ struct LandingView: View {
             }
             
             Section(header: Text("3-Dimensional Objects")) {
+                
                 NavigationLink(destination: PyramidView())
                 { Text("Square pyramid")
+                }
+                
+                NavigationLink(destination: RectangularPrismView())
+                { Text("Rectangular Prism")
                 }
             }
             
